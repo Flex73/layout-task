@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TEKIJÄT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header__logo"><img class="header__logo-img" src="gallery/logo.jpg" /></a>
+        <nav class="header__title">
+            <h3 class="header__title-title">TEKIJÄPANKKI</h3>
+        </nav>
+        <nav class="header__navigation">
+            <ul class="header__navigation-menu">
+                <li class="header__navigation-item"><i class="fas fa-home"></i></li>
+                <li class="header__navigation-item">TEKIJÄT</li>
+                <li class="header__navigation-item">TIETOA PALVELUSTA</li>
+            </ul>
+            <button class="header__navigation-button">Pyydä tarjous</button>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="container__panel">
+            <p class="container__panel-title">HAE</p>
+            <form class="container__panel__form">
+                <input class="container__panel__form-search" type="search" />
+                <button class="container__panel__form-submit"><i class="fas fa-search fa-2x"></i></button>
+            </form>
+            <nav class="container__panel-navigation">
+                <p class="container__panel-navigation-title">LAJITTELUPERUSTE</p>
+                <a class="container__panel-navigation-item" href="/">Työnäytteet</a>
+                <a class="container__panel-navigation-item" href="/">Nimi</a>
+                <a class="container__panel-navigation-item" href="/">Palaute</a>
+            </nav>
+        </section>
+        <section class="container__filters">
+            <p class="container__filters-title">VALITSE MAALAUSTYÖ</p>
+            <ul id="filter" class="container__filters-items">
+                <li class="container__filters-item">Terassit</li>
+                <li class="container__filters-item">Katot</li>
+                <li class="container__filters-item">Puujulkisivut</li>
+                <li class="container__filters-item">Tasoitustyöt</li>
+                <li class="container__filters-item">Efektimaalaus</li>
+                <li class="container__filters-item">Sisämaalaukset</li>
+                <li class="container__filters-item">Lattiat</li>
+                <li class="container__filters-item">Kivijulkisivut ja sokkelit</li>
+                <li class="container__filters-item">Ovet ikkunat ja kalusteet</li>
+            </ul>
+            <p class="container__filters-description">Etsi projektiisi sopivia urakoitsijoita ja pyydä tarjous!</p>
+        </section>
+        <section id="content" class="container__content">
+            <div id="container" class="container__content__item">
+                <img class="container__content__item-photo" src="gallery/cat.jpg">
+                <article class="container__content__item__description">
+                    <h2 class="container__content__item__description-title">Tammijuuri</h2>
+                    <p class="container__content__item__description__location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="container__content__item__description__location-city">HELSINKI</span>
+                    </p>
+                    <p class="container__content__item__description__contact">
+                        <i class="fas fa-phone-volume"></i>
+                        <a class="container__content__item__description__contact-link" href="/">+358407350437</a>
+                    </p>
+                    <p class="container__content__item__description__contact">
+                        <i class="fas fa-envelope"></i>
+                        <a class="container__content__item__description__contact-link" href="/">lauri@tammijuuri.fi</a>
+                    </p>
+                    <p class="container__content__item__description-content">Tammijuuri on ystävällinen ja ihmisläheinen maalausliike Helsingistä. 
+                        Keskityn pääasiassa asuinhuoneistojen ja pienten liiketilojen pintakäsittelyyn. 
+                        Toiminta-alueeni on pääosin pääkaupunkiseudulla. 
+                        Maalarin palveluiden lisäksi teen myös tapetoinnit, laminaattilattioiden asennukset, nauhoitus-, tasoite-, ja verkotustyöt sekä pienet ulkomaalaustyöt ammattitaidolla ja asiakkaiden toiveiden ehdolla. 
+                        Maalauspalvelussani huomioin ympäristön ja luonnon muun muassa kierrättämällä kaiken mahdollisen työstä aiheutuvan jätteen ja käyttämällä ympäristöystävällisiä tarvikkeita ja materiaaleja.</p>
+                    <ul class="container__content__item__description__tags">
+                        <li class="container__content__item__description__tags-item">Terassit</li>
+                        <li class="container__content__item__description__tags-item">Katot</li>
+                        <li class="container__content__item__description__tags-item">Puujulkisivut</li>
+                        <li class="container__content__item__description__tags-item">Tasoitustyöt</li>
+                        <li class="container__content__item__description__tags-item">Sisämaalaukset</li>
+                        <li class="container__content__item__description__tags-item">Lattiat</li>
+                        <li class="container__content__item__description__tags-item">Ovet ikkunat ja kalusteet</li>
+                    </ul>
+                </article>
+                <div class="container__content__item__actions">
+                    <button class="container__content__item__actions-submit">Pyydä tarjous!</button>
+                    <div class="container__content__item__actions__info">
+                        <i class="fas fa-home"></i>
+                        <p class="container__content__item__actions__info-number">11</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container__content__item">
+                <img class="container__content__item-photo" src="gallery/cat1.jpg">
+                <article class="container__content__item__description">
+                    <h2 class="container__content__item__description-title">Tmi Antti Puumanen</h2>
+                    <p class="container__content__item__description__location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="container__content__item__description__location-city">HELSINKI</span>
+                    </p>
+                    <p class="container__content__item__description__contact">
+                        <i class="fas fa-phone-volume"></i>
+                        <a class="container__content__item__description__contact-link" href="/">+358442546122</a>
+                    </p>
+                    <p class="container__content__item__description__contact">
+                        <i class="fas fa-envelope"></i>
+                        <a class="container__content__item__description__contact-link" href="/">antti.puumanen@gmail.com</a>
+                    </p>
+                    <p class="container__content__item__description-content">
+                        Vuodesta 2010 toiminimellä maalausalan pien urakoitsijana ja ali-urakoitsijana töitä tehnyt yhdenmiehen yritys.
+                        Koulutukseltani olen Maalari-artesaani.pt sekä Restaurointi-Kisälli.at.
+                        Erikois-osaamisena Marmorointi/kivijäljennökset.
+                    </p>
+                        <ul class="container__content__item__description__tags">
+                            <li class="container__content__item__description__tags-item">Efektimaalaus</li>
+                        </ul>
+                    </article>
+                    <div class="container__content__item__actions">
+                        <button class="container__content__item__actions-submit">Pyydä tarjous!</button>
+                        <div class="container__content__item__actions__info">
+                            <i class="fas fa-home"></i>
+                            <p class="container__content__item__actions__info-number">11</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+            <div class="footer__container">
+        <article class="footer__article">
+            <h4 class="footer__article-title">Löydä lähin luotettava tekijä!</h4>
+            <p class="footer__article-content">Tekijäpankista löydät osaavat ja luotettavat tekijät maalaustyöllesi.</p>
+            <a class="footer__article-link" href="/">Lue lisää</a>
+        </article>
+        <article class="footer__article">
+            <h4 class="footer__article-title">Yleistä</h4>
+            <a class="footer__article-link" href="/">Tietoa palvelusta</a>
+            <a class="footer__article-link" href="/">Ota yhteyttä</a>
+        </article>
+        <article class="footer__article">
+            <h4 class="footer__article-title">Seuraa meitä</h4>
+            <a class="footer__article-link" href="/">Facebook</a>
+            <a class="footer__article-link" href="/">Google+</a>
+        </article>
+    </div>
+        <small class="footer__copyright">
+            © 2016 Tikkurila Oyj -
+            <a class="footer__copyright-link" href="www.tikkurila.fi">www.tikkurila.fi</a>
+        </small>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
